@@ -36,6 +36,7 @@ public class GridReader {
             Cell cell = Cell.fromSymbol(Character.toString(cellSymbol)); // Create a new cell object
             if (cell == null) {
                 throw new IllegalArgumentException();
+                System.out.println("ERROR FORZADO");
             }
             cellsInRow.add(cell); // And save it to return
         }
